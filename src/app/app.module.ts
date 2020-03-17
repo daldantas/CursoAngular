@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Aula3Component } from './aula3/aula3.component';
 import { Aula4Component } from './aula4/aula4.component';
+import { Aula5Module } from './aula5/aula5.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Aula4Component } from './aula4/aula4.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Aula5Module
   ],
   providers: [],
   bootstrap: [AppComponent]
